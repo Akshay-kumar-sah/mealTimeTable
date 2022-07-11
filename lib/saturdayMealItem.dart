@@ -1,14 +1,11 @@
-//import 'dart:html';
-
 import 'package:flutter/material.dart';
-import 'package:mealtimetable/myHomePage.dart';
-import './accountPage.dart';
+import 'package:mealtimetable/accountPage.dart';
+import './myHomePage.dart';
 import './settings.dart';
 
-class sundayMealItem extends StatelessWidget {
-  //const sundayMealItem({Key? key}) : super(key: key);
-  static const routeName = "sundayMealItem";
-  // var orientation, size, height, width;
+class saturdayMealItem extends StatelessWidget {
+  //const saturdayMealItem({Key? key}) : super(key: key);
+  static const routeName = "saturdayMealItem";
   @override
   Widget build(BuildContext context) {
     final double height = MediaQuery.of(context).size.height;
@@ -27,7 +24,8 @@ class sundayMealItem extends StatelessWidget {
               height: height / 4,
               width: width,
               decoration: const BoxDecoration(
-                color: Color.fromRGBO(254, 83, 3, 1),
+                gradient: LinearGradient(
+                    colors: [Color.fromARGB(255, 244, 155, 54), Colors.pink]),
                 borderRadius: BorderRadius.all(
                   Radius.circular(20.0),
                 ),

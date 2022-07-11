@@ -1,14 +1,11 @@
-//import 'dart:html';
-
 import 'package:flutter/material.dart';
-import 'package:mealtimetable/myHomePage.dart';
-import './accountPage.dart';
+import 'package:mealtimetable/accountPage.dart';
+import './myHomePage.dart';
 import './settings.dart';
 
-class sundayMealItem extends StatelessWidget {
-  //const sundayMealItem({Key? key}) : super(key: key);
-  static const routeName = "sundayMealItem";
-  // var orientation, size, height, width;
+class thursdayMealItem extends StatelessWidget {
+  //const thursdayMealItem({Key? key}) : super(key: key);
+  static const routeName = "thursdayMealItem";
   @override
   Widget build(BuildContext context) {
     final double height = MediaQuery.of(context).size.height;

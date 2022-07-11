@@ -1,14 +1,11 @@
-//import 'dart:html';
-
 import 'package:flutter/material.dart';
-import 'package:mealtimetable/myHomePage.dart';
-import './accountPage.dart';
+import 'package:mealtimetable/accountPage.dart';
+import './myHomePage.dart';
 import './settings.dart';
 
-class sundayMealItem extends StatelessWidget {
-  //const sundayMealItem({Key? key}) : super(key: key);
-  static const routeName = "sundayMealItem";
-  // var orientation, size, height, width;
+class tuesdayMealItem extends StatelessWidget {
+  //const tuesdayMealItem({Key? key}) : super(key: key);
+  static const routeName = "tuesdayMealItem";
   @override
   Widget build(BuildContext context) {
     final double height = MediaQuery.of(context).size.height;
@@ -45,7 +42,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Poha , Mutter',
+                    'Allu Dum , Puri',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 74, 72, 72),
@@ -89,7 +86,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Rice , Dal , Roti ',
+                    'Jeera Rice , kadhai ',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 68, 8, 236),
@@ -98,7 +95,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Seasonal Veg',
+                    'Jeera Allu , Roti',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 104, 10, 228),
@@ -142,7 +139,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Brown Bread',
+                    'Toast',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 22, 22, 22),

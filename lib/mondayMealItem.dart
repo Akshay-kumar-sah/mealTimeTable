@@ -1,14 +1,11 @@
-//import 'dart:html';
-
 import 'package:flutter/material.dart';
-import 'package:mealtimetable/myHomePage.dart';
+import './myHomePage.dart';
 import './accountPage.dart';
 import './settings.dart';
 
-class sundayMealItem extends StatelessWidget {
-  //const sundayMealItem({Key? key}) : super(key: key);
-  static const routeName = "sundayMealItem";
-  // var orientation, size, height, width;
+class mondayMealItem extends StatelessWidget {
+  //const mondayMealItem({Key? key}) : super(key: key);
+  static const routeName = "mondayMealItem";
   @override
   Widget build(BuildContext context) {
     final double height = MediaQuery.of(context).size.height;
@@ -45,7 +42,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Poha , Mutter',
+                    'Milk , Bread ',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 74, 72, 72),
@@ -54,7 +51,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Tea',
+                    'Banana',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 11, 11, 11),
@@ -142,7 +139,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Brown Bread',
+                    'Biscuit',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 22, 22, 22),
@@ -186,7 +183,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Puri , Allu Cholle ',
+                    'Rice , Dal , Roti ',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 74, 72, 72),
@@ -195,7 +192,7 @@ class sundayMealItem extends StatelessWidget {
                         fontWeight: FontWeight.bold),
                   ),
                   Text(
-                    'Rice , Dal ',
+                    'Seasonal Veg',
                     style: TextStyle(
                         letterSpacing: 1,
                         color: Color.fromARGB(255, 11, 11, 11),
