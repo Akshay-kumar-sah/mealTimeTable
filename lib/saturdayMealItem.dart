@@ -69,7 +69,11 @@ class saturdayMealItem extends StatelessWidget {
               height: height / 4,
               width: width,
               decoration: const BoxDecoration(
-                color: Color.fromARGB(255, 208, 206, 206),
+                gradient: LinearGradient(colors: [
+                  Color.fromARGB(255, 204, 18, 236),
+                  Color.fromARGB(255, 25, 112, 183)
+                ]),
+                //color: Color.fromARGB(255, 208, 206, 206),
                 borderRadius: BorderRadius.all(
                   Radius.circular(20.0),
                 ),
@@ -90,7 +94,7 @@ class saturdayMealItem extends StatelessWidget {
                     'Rice , Dal , Roti ',
                     style: TextStyle(
                         letterSpacing: 1,
-                        color: Color.fromARGB(255, 68, 8, 236),
+                        color: Color.fromARGB(255, 84, 83, 84),
                         fontFamily: "Arial",
                         fontSize: 25,
                         fontWeight: FontWeight.bold),
@@ -99,7 +103,7 @@ class saturdayMealItem extends StatelessWidget {
                     'Seasonal Veg',
                     style: TextStyle(
                         letterSpacing: 1,
-                        color: Color.fromARGB(255, 104, 10, 228),
+                        color: Color.fromARGB(255, 12, 12, 12),
                         fontFamily: "Railway",
                         fontSize: 25,
                         fontWeight: FontWeight.bold),
@@ -122,7 +126,9 @@ class saturdayMealItem extends StatelessWidget {
               height: height / 4,
               width: width,
               decoration: const BoxDecoration(
-                color: Color(0xFF09ED3E),
+                gradient: LinearGradient(
+                    colors: [Colors.green, Color.fromARGB(255, 92, 91, 91)]),
+                //color: Color(0xFF09ED3E),
                 borderRadius: BorderRadius.all(
                   Radius.circular(20.0),
                 ),
@@ -166,7 +172,9 @@ class saturdayMealItem extends StatelessWidget {
               height: height / 4,
               width: width,
               decoration: const BoxDecoration(
-                color: Color.fromARGB(255, 144, 220, 246),
+                gradient:
+                    LinearGradient(colors: [Colors.indigo, Colors.cyanAccent]),
+                // color: Color.fromARGB(255, 144, 220, 246),
                 borderRadius: BorderRadius.all(
                   Radius.circular(20.0),
                 ),

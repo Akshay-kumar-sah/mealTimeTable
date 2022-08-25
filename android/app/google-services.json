@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1034012339448",
+    "firebase_url": "https://mealtimetable-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mealtimetable",
+    "storage_bucket": "mealtimetable.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034012339448:android:91221ac0b79c0876eddf0d",
+        "android_client_info": {
+          "package_name": "com.example.mealtimetable"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034012339448-2rn8jb26tuc5sivgsud83c1jof6dgce9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mealtimetable",
+            "certificate_hash": "5035e9d5ebd41cc975af1f9cda6905fe25e225f0"
+          }
+        },
+        {
+          "client_id": "1034012339448-t2b9g250tmf8sf77mamhm69pj0ea6j1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEytldKIZbFjck1Cu98HkZoj7je5pSg-Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034012339448-t2b9g250tmf8sf77mamhm69pj0ea6j1i.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1034012339448-s3t6dshpbbqktg6pikgi4vjucqqci3fs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.mealtimetable"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
